@@ -47,7 +47,7 @@ pip install torch torchvision torchaudio opencv-python
 | **torch06** | Optimizers | Comparing SGD and Adam to see how the computer "walks" toward the answer. |
 | **torch07** | OpenCV Integration | Opening the webcam and displaying a live feed at **320x320** resolution. |
 | **torch08** | Motion Detection | Using "Frame Differencing" to detect change between the current and last frame. |
-| **torch09** | Binary Classifier | Using a CNN to distinguish between a **Hand** and the **Background**. |
+| **torch09** | Binary Classifier | Using a CNN to distinguish between a 'h' **Hand** and the 'b' **Background**. |
 | **torch10** | Persistent Memory | Saving weights to a `.pth` file so the brain "remembers" after quitting. |
-| **torch11** | Multiclass Logic | Teaching the brain to recognize 3 distinct states: **Background**, **Hand**, and **Object**. |
+| **torch11** | Multiclass Logic | Teaching the brain to recognize 3 distinct states: 'b' **Background**,'h' **Hand**, and 'p' **Object**. |
 | **torch12** | Data Augmentation | Making the AI robust by randomly rotating and flipping images during training. |
