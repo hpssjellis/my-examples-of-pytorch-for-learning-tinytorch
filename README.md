@@ -45,9 +45,9 @@ pip install torch torchvision torchaudio opencv-python
 | **torch04** | The First Neuron | Building a single-layer neural network to solve numeric patterns. |
 | **torch05** | Hidden Layers | Adding "inner thoughts" to the network to solve non-linear problems. |
 | **torch06** | Optimizers | Comparing SGD and Adam to see how the computer "walks" toward the answer. |
-| **torch07** | OpenCV Integration | Opening the webcam and displaying a live feed at **320x320** resolution. |
+| **torch07** | OpenCV Integration | Opening the webcam and displaying a live feed at **320x320** resolution. 'q' to quit |
 | **torch08** | Motion Detection | Using "Frame Differencing" to detect change between the current and last frame. |
 | **torch09** | Binary Classifier | Using a CNN to distinguish between a 'h' **Hand** and the 'b' **Background**. |
-| **torch10** | Persistent Memory | Saving weights to a `.pth` file so the brain "remembers" after quitting. |
+| **torch10** | Persistent Memory | Saving weights to a `.pth` file so the brain "remembers" after 'q' quitting. |
 | **torch11** | Multiclass Logic | Teaching the brain to recognize 3 distinct states: 'b' **Background**,'h' **Hand**, and 'p' **Object**. |
 | **torch12** | Data Augmentation | Making the AI robust by randomly rotating and flipping images during training. |
