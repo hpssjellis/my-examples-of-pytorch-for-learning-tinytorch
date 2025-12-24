@@ -37,25 +37,7 @@ pip install torch torchvision torchaudio opencv-python
 
 ## 🚀 The Curriculum (Script Progress)
 
-| File | Title | Concept Learned |
-| :--- | :--- | :--- |
-| **torch01** | Scalar Tensors | Creating basic numbers in PyTorch and understanding the "Tensor" data type. |
-| **torch02** | Autograd Math | Learning how PyTorch tracks math history to calculate derivatives automatically. |
-| **torch03** | Linear Regression | Teaching the computer to find the slope of a line ($y = mx + b$). |
-| **torch04** | The First Neuron | Building a single-layer neural network to solve numeric patterns. |
-| **torch05** | Hidden Layers | Adding "inner thoughts" to the network to solve non-linear problems. |
-| **torch06** | Optimizers | Comparing SGD and Adam to see how the computer "walks" toward the answer. |
-| **torch07** | OpenCV Integration | Opening the webcam and displaying a live feed at **320x320** resolution. 'q' to quit |
-| **torch08** | Motion Detection | Using "Frame Differencing" to detect change between the current and last frame. |
-| **torch09** | Binary Classifier | Using a CNN to distinguish between a 'h' **Hand** and the 'b' **Background**. |
-| **torch10** | Persistent Memory | Saving weights to a `.pth` file so the brain "remembers" after 'q' quitting. |
-| **torch11** | Multiclass Logic | Teaching the brain to recognize 3 distinct states: 'b' **Background**,'h' **Hand**, and 'p' **Object**. |
-| **torch12** | Data Augmentation | Making the AI robust by randomly rotating and flipping images during training. |
-
-
-
-
-## 🚀 The Curriculum (Script Progress)
+## 🚀 The Full Curriculum (Math to Microcontroller)
 
 | File | Title | Concept Learned | tinyTorch Chapter |
 | :--- | :--- | :--- | :--- |
@@ -71,3 +53,6 @@ pip install torch torchvision torchaudio opencv-python
 | **torch10** | Persistent Memory | Saving weights to a `.pth` file. | **6.1** Model Serialization |
 | **torch11** | Multiclass Logic | Recognizing **Background**, **Hand**, and **Object**. | **5.2** Softmax & Cross Entropy |
 | **torch12** | Data Augmentation | Making AI robust with rotations and flips. | **4.3** Data Augmentation |
+| **torch13** | Validation Logic | Testing the brain on "unseen" data for honesty. | **7.1** Evaluation Metrics |
+| **torch14** | Feature Map Visuals | Peeking inside the CNN to see what the filters see. | **8.1** Visualizing Convolutions |
+| **torch15** | The Export Master | Converting weights into raw C++ Header arrays (.h). | **9.1** Hardware Deployment |
