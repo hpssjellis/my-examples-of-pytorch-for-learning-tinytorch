@@ -29,3 +29,24 @@ I have included an `activate.bat` file for Windows users. Simply run:
 Once activated, install the necessary AI and Vision libraries:
 ```bash
 pip install torch torchvision torchaudio opencv-python
+
+
+
+
+
+## 🚀 The Curriculum (Script Progress)
+
+| File | Title | Concept Learned |
+| :--- | :--- | :--- |
+| **torch01** | Scalar Tensors | Creating basic numbers in PyTorch and understanding the "Tensor" data type. |
+| **torch02** | Autograd Math | Learning how PyTorch tracks math history to calculate derivatives automatically. |
+| **torch03** | Linear Regression | Teaching the computer to find the slope of a line ($y = mx + b$). |
+| **torch04** | The First Neuron | Building a single-layer neural network to solve numeric patterns. |
+| **torch05** | Hidden Layers | Adding "inner thoughts" to the network to solve non-linear problems. |
+| **torch06** | Optimizers | Comparing SGD and Adam to see how the computer "walks" toward the answer. |
+| **torch07** | OpenCV Integration | Opening the webcam and displaying a live feed at **320x320** resolution. |
+| **torch08** | Motion Detection | Using "Frame Differencing" to detect change between the current and last frame. |
+| **torch09** | Binary Classifier | Using a CNN to distinguish between a **Hand** and the **Background**. |
+| **torch10** | Persistent Memory | Saving weights to a `.pth` file so the brain "remembers" after quitting. |
+| **torch11** | Multiclass Logic | Teaching the brain to recognize 3 distinct states: **Background**, **Hand**, and **Object**. |
+| **torch12** | Data Augmentation | Making the AI robust by randomly rotating and flipping images during training. |
